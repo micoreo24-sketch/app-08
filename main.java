@@ -31,7 +31,11 @@ public class main {
 
             case 2:
                 System.out.println("Alejandro");
+            System.out.println("roberto");
+
+                System.out.println("Elvis Rivera67");
                 // Lógica si es Médico (+$100)
+
                 break;
 
             case 3:
