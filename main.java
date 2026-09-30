@@ -31,6 +31,7 @@ public class main {
 
             case 2:
                 // Lógica si es Médico (+$100)
+                System.out.println("David g");a
                 break;
 
             case 3:
