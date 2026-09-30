@@ -30,6 +30,7 @@ public class main {
                 break;
 
             case 2:
+                System.out.println("Alejandro");
             System.out.println("roberto");
 
                 System.out.println("Elvis Rivera67");
