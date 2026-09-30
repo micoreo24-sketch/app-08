@@ -4,13 +4,17 @@
 // SI ES ADMINISTRATIVO SE AGREGA 2% DEL SALARIO TOTAL
 // SI TIENE MULTA SE DESCUENTA $15 AL SALARIO FINAL
 // EL PROGRAMA DEBE RECIBIR EL NOMBRE Y EL SALARIO DEL TRABAJADOR
+import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 public class main {
     public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
 
-        String nombre;  
-        double salario;  
-        int opcion;   
+        String nombre;
+        double salario=600;
+        int opcion;
+
         System.out.println("################");
         System.out.println("Es Programador");
         System.out.println("Es medico");
@@ -21,6 +25,7 @@ public class main {
 
         switch (opcion) {
             case 1:
+                salario = salario + ( salario*0.25);
                 // Lógica si es Programador (+25%)
                 break;
 
@@ -36,10 +41,7 @@ public class main {
                 System.out.println("Opción no válida");
                 break;
         }
-
+         JOptionPane.showMessageDialog(null, "el salario es:" +salario);
     }
 }
   
-//Variable nombre is neither read or written to
-//Variable salario;Variable salario is neither read or written to
-//Variable opcion is neither read or written to
