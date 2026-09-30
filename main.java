@@ -30,7 +30,7 @@ public class main {
                 break;
 
             case 2:
-                System.out.println("Elvis Rivera67");
+                System.out.println("Alejandro");
                 // Lógica si es Médico (+$100)
                 break;
 
